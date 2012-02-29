@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Volumes/www/extjs-login/public/app'
+let g:netrw_dirhist_2='/Volumes/www/extjs-login/public/app/view'
+let g:netrw_dirhist_3='/Users/sandy/Sites/extjs-mvc/app'
+let g:netrw_dirhist_4='/Volumes/www/sakila/backend/resources'
+let g:netrw_dirhist_5='/Volumes/www/sakila/backend/resources/css'
