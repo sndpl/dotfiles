@@ -30,6 +30,7 @@
         last = log -1 HEAD
         lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
         lgdate = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+        branches = for-each-ref --sort=-committerdate refs/heads/ --format='%(refname:short) %(committerdate) %(authorname)' 
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true

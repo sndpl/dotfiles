@@ -4,6 +4,8 @@
 --type-set=tags=tags
 --type-set=cucumber=.feature
 --type-set=mymake=.mk
+--type-set=js=.js,.json
+--type-set=javascript=.js,.json
 --notags
 --noxml
 --ignore-dir=tmp
